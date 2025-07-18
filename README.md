@@ -1,44 +1,104 @@
-# vCard - Personal portfolio
+# Christopher Siang - Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A modern, responsive personal portfolio website showcasing my skills, experience, and projects as a Software Engineering student specializing in AI. Built with HTML, CSS, and JavaScript for optimal performance and cross-device compatibility.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 🚀 Features
+
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Interactive UI**: Smooth animations and modern interface
+- **Project Showcase**: Display of personal projects with GitHub links
+- **Professional Experience**: Timeline of education and work experience
+- **Skills Section**: Technical skills and expertise overview
+- **Contact Form**: Functional contact form with location map
+- **Social Links**: Direct links to LinkedIn, GitHub, Instagram, and Strava profiles
+
+## 📋 Sections
+
+- **About**: Professional summary and background
+- **Resume**: Education timeline and work experience
+- **Portfolio**: Featured projects with live demos and source code
+- **Blog**: Content section (currently disabled)
+- **Contact**: Contact form and location details
 
 ## Demo
 
 ![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
 ![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-## Prerequisites
+## 🛠️ Technologies Used
 
-Before you begin, ensure you have met the following requirements:
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Custom CSS with responsive design
+- **Icons**: Ion Icons
+- **Fonts**: Google Fonts (Poppins)
+- **Deployment**: Static hosting compatible
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+## 🚀 Quick Start
 
-## Installing vCard
+### Local Development
 
-To install **vCard**, follow these steps:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/kri5toffer/portfolio.git
+   cd portfolio/vcard-personal-portfolio
+   ```
 
-Linux and macOS:
+2. **Open in browser**
+   ```bash
+   # On macOS
+   open index.html
+   
+   # On Linux
+   xdg-open index.html
+   
+   # On Windows
+   start index.html
+   ```
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+### Docker Deployment
+
+1. **Build the Docker image**
+   ```bash
+   docker build -t portfolio-website .
+   ```
+
+2. **Run the container**
+   ```bash
+   docker run -p 8080:80 portfolio-website
+   ```
+
+3. **Access the website**
+   Open your browser and navigate to `http://localhost:8080`
+
+## 📁 Project Structure
+
+```
+vcard-personal-portfolio/
+├── index.html          # Main HTML file
+├── assets/
+│   ├── css/
+│   │   └── style.css   # Main stylesheet
+│   ├── js/
+│   │   └── script.js   # JavaScript functionality
+│   └── images/         # Images and media files
+├── Dockerfile          # Docker configuration
+└── README.md           # Project documentation
 ```
 
-Windows:
+## 🌐 Deployment Options
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+- **GitHub Pages**: Free static hosting
+- **Netlify**: Drag-and-drop deployment
+- **Vercel**: One-click deployment
+- **Docker**: Containerized deployment
 
-## Contact
+## 📱 Contact
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+- **Email**: chris.siang123@gmail.com
+- **LinkedIn**: [Christopher Siang](https://www.linkedin.com/in/christopher-siang/)
+- **GitHub**: [kri5toffer](https://github.com/kri5toffer)
+- **Location**: Melbourne, Victoria, Australia
 
-## License
+## 📄 License
 
-MIT
+This project is open source and available under the [MIT License](LICENSE).
